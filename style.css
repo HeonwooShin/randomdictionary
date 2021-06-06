@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.wordContainer {
+    font-size: 100px;
+}
+
+.definitionContainer {
+    font-size: 40px;
+}
