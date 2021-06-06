@@ -4,9 +4,9 @@ body {
 }
 
 .wordContainer {
-    font-size: 100px;
+    font-size: 50%;
 }
 
 .definitionContainer {
-    font-size: 40px;
+    font-size: 20%;
 }
