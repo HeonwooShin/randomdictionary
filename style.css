@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 body {
     background-color: black;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .wordContainer {
-    font-size: 75%;
+    font-size: 80px;
 }
 
 .definitionContainer {
-    font-size: 30%;
+    font-size: 50px;
+}
+
+@media (min-width: 400px) and (max-width:800px) {
+    .wordContainer {
+        font-size: 60px
+    }
+    
+    .definitionContainer {
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 400px) {
+    .wordContainer {
+        font-size: 30px;
+    }
+
+    .definitionContainer {
+        font-size: 20px;
+    }
 }
