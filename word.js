@@ -10,12 +10,11 @@ THE_NUMBER_OF_WORDS = 3000;
 function getDefinition(word) {
 
     fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`)
-    .then(response => response.json())
-    .then(data => {
-        console.log(data)
-        const new_definition = data[0].meanings[0].definitions[0].definition; 
-        definition.innerText = new_definition;
-    });
+        .then(response => response.json())
+        .then(data => {
+            const new_definition = data[0].meanings[0].definitions[0].definition;
+            definition.innerText = new_definition;
+        });
 }
 
 function getWord() {
@@ -26,7 +25,7 @@ function getWord() {
 }
 
 function getRandom() {
-    randomNumber = Math.floor(Math.random()*THE_NUMBER_OF_WORDS);
+    randomNumber = Math.floor(Math.random() * THE_NUMBER_OF_WORDS);
     return randomNumber;
 }
 
