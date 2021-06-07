@@ -7,9 +7,11 @@ body {
 }
 
 .wordContainer {
-    font-size: 70vw;
+    font-size: 10vw;
+    padding: 0;
 }
 
 .definitionContainer {
-    font-size: 30vw;
+    font-size: 5vw;
+    padding: 0;
 }
