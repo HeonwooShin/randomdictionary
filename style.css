@@ -7,29 +7,9 @@ body {
 }
 
 .wordContainer {
-    font-size: 80px;
+    font-size: 70vw;
 }
 
 .definitionContainer {
-    font-size: 50px;
-}
-
-@media (min-width: 400px) and (max-width:800px) {
-    .wordContainer {
-        font-size: 60px
-    }
-    
-    .definitionContainer {
-        font-size: 40px;
-    }
-
-}
-@media (max-width: 400px) {
-    .wordContainer {
-        font-size: 30px;
-    }
-
-    .definitionContainer {
-        font-size: 20px;
-    }
+    font-size: 30vw;
 }
